@@ -14,6 +14,7 @@ from utils import (
     get_loaders,
     plot_couple_examples
 )
+
 from loss import YoloLoss
 
 torch.backends.cudnn.benchmark = True
